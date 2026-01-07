@@ -1,6 +1,6 @@
 [project]
 name = "automate-changelog-and-releases"
-version = "0.1.0"
+version = "0.2.0"
 description = "Use Git-Cliff and Github Actions to manage your changelog and releases"
 readme = "README.md"
 requires-python = ">=3.13"
