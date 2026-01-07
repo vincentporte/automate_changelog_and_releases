@@ -84,6 +84,7 @@ The automation uses three GitHub Actions workflows:
 2. **Merge PRs to main**:
    - After merging, the changelog workflow automatically runs
    - A new PR is created with the updated changelog
+   - When using `squash and merge`, PR id in commit message is converted into a link to the PR in the changelog file
 
 3. **Review and merge changelog PR**:
    - Review the generated changelog
