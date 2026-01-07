@@ -62,11 +62,11 @@ protect_breaking_commits = false
 # Assigns commits to groups.
 # Optionally sets the commit's scope and can decide to exclude commits from further processing.
 commit_parsers = [
-  { field = "github.pr_labels", pattern = "breaking", group = "<!-- 0 --> Breaking Changes", bump = "major" },
-  { field = "github.pr_labels", pattern = "added", group = "<!-- 1 --> Added", bump = "minor" },
-  { field = "github.pr_labels", pattern = "modified", group = "<!-- 2 --> Modified", bump = "minor" },
-  { field = "github.pr_labels", pattern = "removed", group = "<!-- 3 --> Removed", bump = "minor" },
-  { field = "github.pr_labels", pattern = "bugfix", group = "<!-- 4 --> Fixed", bump = "patch" },
+  { field = "github.pr_labels", pattern = "breaking", group = "<!-- 0 --> Breaking Changes" },
+  { field = "github.pr_labels", pattern = "added", group = "<!-- 1 --> Added" },
+  { field = "github.pr_labels", pattern = "modified", group = "<!-- 2 --> Modified" },
+  { field = "github.pr_labels", pattern = "removed", group = "<!-- 3 --> Removed" },
+  { field = "github.pr_labels", pattern = "bugfix", group = "<!-- 4 --> Fixed" },
 ]
 # Exclude commits that are not matched by any commit parser.
 filter_commits = false
